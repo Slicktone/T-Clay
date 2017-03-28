@@ -19,9 +19,8 @@ class Home extends React.Component {
         return(
             <div className="home-content">
                 <Navbar />
-                <Header />
                 <Main />
-                {/*<About /> maybe?*/}
+                <About />
                 <Projects />
                 <Contact />
                 <Footer />
