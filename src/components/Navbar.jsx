@@ -4,15 +4,25 @@ import { Link } from 'react-router';
 class Navbar extends React.Component {
     render() {
         return(
-            <div className="container">
+            <nav>
                 <a href="index.html" id="logo"> Tony Clayton </a>
-                    <div className="navbar">
-                        <a href="index.html"> Home </a>
-                        <a href="#"> About </a>
-                        <a href="#"> Portfolio </a>
-                        <a href="#"> Contact </a>              
+                    <div className="container">
+                        <ul className="navbar">
+                            <li>
+                                <a href="index.html"> Home </a>
+                            </li>
+                            <li>
+                                <a href="#"> About </a>
+                            </li>
+                            <li>
+                                 <a href="#"> Portfolio </a>
+                            </li>
+                            <li>
+                                <a href="#"> Contact </a>
+                            </li>
+                        </ul>              
                 </div>
-            </div>
+            </nav>
         );
     }
 }
