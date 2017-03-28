@@ -11,7 +11,7 @@ class About extends React.Component {
                     Cras ante arcu, feugiat a justo non, imperdiet congue nisi. Aliquam gravida est a leo pellentesque placerat.
                 </p>
 
-                <a href="#"
+                <a href="www.linkedin.com"> Learn More About Me! </a>
             </div>
         )
     }
