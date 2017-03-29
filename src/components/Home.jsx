@@ -17,7 +17,7 @@ class Home extends React.Component {
 
     render() {
         return(
-            <div className="home-content">
+            <div id="home-content">
                 <Navbar />
                 <Main />
                 <About />
