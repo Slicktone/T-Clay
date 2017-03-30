@@ -1,12 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import Navbar from 'Navbar';
-import Header from './Header';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
-import Footer from './Footer';
 
 class Home extends React.Component {
     constructor(props) {
@@ -17,13 +11,31 @@ class Home extends React.Component {
 
     render() {
         return(
-            <div className="home-content">
-                <Navbar />
-                <Main />
-                <About />
-                <Projects />
-                <Contact />
-                <Footer />
+            <div id="home-content">
+                <h1 className='name'> Tony Clayton </h1>
+                <img className='profile-shot' src='#' alt='' />
+                <h3 className='profession'> Profession() => { " Web Developer " } </h3>
+
+                <div className='skills'>
+                    <a href='#' target='_blank'> HTML5 </a>
+                        <span className='space'> | </span>
+
+                    <a href='#' target='_blank'> CSS </a>
+                        <span className='space'> | </span>
+
+                    <a href='#' target='_blank'> Javascript </a>
+                        <span className='space'> | </span>
+
+                    <a href='#' target='_blank'> jQuery </a>
+                        <span className='space'> | </span>
+
+                    <a href='#' target='_blank'> MySQL </a>
+                        <span className='space'> | </span>
+
+                    <a href='#' target='_blank'> MongoDB </a>
+                        <span className='space'> | </span>
+
+               </div>
 </div>
 
         );
