@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
+import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -13,8 +14,9 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
-                    My Personal Portfolio!
+                    <Home />
                 <About />
+                <Projects />
             </div>
 
         )
