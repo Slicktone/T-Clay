@@ -13,7 +13,7 @@ class Home extends React.Component {
         return(
             <div id="home-content">
                 <h1 className='name'> Tony Clayton </h1>
-                <img className='profile-shot' src='#' alt='' />
+                <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' alt='' />
                 <h3 className='profession'> Profession() => { " Web Developer " } </h3>
 
                 <div className='skills'>
