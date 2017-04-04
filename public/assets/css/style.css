@@ -16,6 +16,9 @@ nav {
     background-color: #fff;
     list-style: none;
     text-decoration: none;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 nav a {
@@ -25,8 +28,33 @@ nav a {
     display: inline-flex;
     float: right;
 }
-
-
+#home-content {
+    text-align: center;
+}
+.about {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10%;
+}
 .profile-shot {
     border-radius: 50%;
+    margin-right: 30px;
+}
+
+.image-container {
+    display: inline-flex;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.footer {
+    background-color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
