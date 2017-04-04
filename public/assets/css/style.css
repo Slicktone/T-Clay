@@ -50,11 +50,22 @@ nav a {
     text-align: center;
 }
 
-.footer {
+.footer-container {
     background-color: #fff;
+}
+.footer {
+    display: inline-flex;
     list-style: none;
     text-decoration: none;
     padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 15px;
+}
+
+.breadCrumb {
+    float: right;
+}
+
+i {
+    font-size: 40px;
 }

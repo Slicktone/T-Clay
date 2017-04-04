@@ -5,13 +5,16 @@ import ReactDOM from 'react-dom';
 class Footer extends React.Component {
 render() {
         return(
-            <footer>
-                <a href="index.html" id="logo"> Tony Clayton </a>
-                    <div className="footer-container">
-                        <a href='#' className='tagName'> @ Slicktone </a>
-                        <a href='#' className='breadCrumb'> Back To Top </a>
-                     </div>
-            </footer>
+
+            <div className="footer-container">
+                <footer>
+                    <a href="index.html" id="logo"> Tony Clayton </a>
+                        <i className="devicon-github-plain colored"></i>
+                        <i className="devicon-twitter-plain colored"></i>
+                        <i className="devicon-facebook-plain colored"></i>
+                    <a href='#' className='breadCrumb'> Back To Top </a>
+                </footer>
+            </div>
         );
     }
 }
