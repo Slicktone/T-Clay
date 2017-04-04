@@ -13,14 +13,14 @@ class Home extends React.Component {
         return(
             <div id="home-content">
 
-                <a className='skills-top' href='#' target='_blank'> HTML5 </a> <span className='space'> //////// </span> <a className='skills-top' href='#' target='_blank'> Javascript </a>
+                <i className="devicon-html5-plain-wordmark colored"></i> <span className='space'>      </span> <i className="devicon-javascript-plain colored"></i>
+                
                 <div id='skills'>
-
-                    
-                 <a href='#' target='_blank'> CSS </a> <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' alt='' /> <a href='#' target='_blank'> jQuery </a>
+              
+                 <i className="devicon-css3-plain-wordmark colored"></i> <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' alt='' /> <i className="devicon-jquery-plain-wordmark colored"></i>
 
                      <br />
-                     <a href='#' target='_blank'> MySQL </a><span className='space'> //////// </span> <a href='#' target='_blank'> MongoDB </a>
+                     <i className="devicon-mysql-plain colored"></i> <span className='space'>      </span> <i className="devicon-mongodb-plain-wordmark colored"></i>
 
                 <h3 className='profession'> Profession() => { " Web Developer " } </h3>
 
