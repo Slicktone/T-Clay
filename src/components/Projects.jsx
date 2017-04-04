@@ -9,17 +9,37 @@ class Projects extends React.Component {
        return (
            <div className='project-container'>
                <div className='image-container'>
+
                    <div className='logo-container'>
                        <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' href='www.t-clay.com'></img>
+                            
+                            <div className='project-info'>
+                                <a href='#' target='_blank'>
+                                    <h2> Project Title </h2>
+                                </a>
+                            </div>
                     </div>
-                </div>
-            
 
-            <div className='project-info'>
-                <a href='#' target='_blank'>
-                    <h2> Project Title </h2>
-                </a>
-            </div>
+                    <div className='logo-container'>
+                       <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' href='www.t-clay.com'></img>
+                          
+                          <div className='project-info'>
+                                <a href='#' target='_blank'>
+                                    <h2> Project Title </h2>
+                                </a>
+                            </div>
+                    </div>
+
+                    <div className='logo-container'>
+                       <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' href='www.t-clay.com'></img>
+                         <div className='project-info'>
+                                <a href='#' target='_blank'>
+                                    <h2> Project Title </h2>
+                                </a>
+                            </div>
+                    </div>
+
+                </div>      
         </div>
        );
    }
