@@ -14,6 +14,7 @@ class Home extends React.Component {
         <div id="home-content">
             <div className='skills-first-row'>
                 <i className="devicon-html5-plain-wordmark colored"></i>
+                    <span className='skill-spacing-first'></span>
                 <i className="devicon-css3-plain-wordmark colored"></i>
             </div>
             
@@ -24,8 +25,8 @@ class Home extends React.Component {
                     <i className="devicon-javascript-plain colored"></i>
                 </span>
 
-                <span className='skill-spacing'>
-                </span>
+                <span className='skill-spacing'></span>
+                
 
                 <span className='jquery'>
                     <i className="devicon-jquery-plain-wordmark colored"></i>
@@ -38,15 +39,20 @@ class Home extends React.Component {
 
             <div className='skills-third-row'>
                 <i className="devicon-nodejs-plain colored"></i>
+                    <span className='skill-spacing'></span>
                 <i className="devicon-react-original-wordmark colored"></i>
             </div>
 
+            
+            
+
             <div className='skills-fourth-row'>
                 <i className="devicon-mysql-plain colored"></i>
+                <span className='skill-spacing-fourth'></span>
                 <i className="devicon-mongodb-plain-wordmark colored"></i>
             </div>
 
-            <h3 className='profession'> Profession() => { " { Web Developer } " } </h3>
+            <h3 className='profession'> Profession( ) => { " { Web Developer } " } </h3>
 
         </div>
 
