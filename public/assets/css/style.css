@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('../img/ep_naturalwhite.png');
+    background: url('../img/ep_naturalblack.png');
     font-family: 'Dosis', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     line-height: 34px;
@@ -40,8 +40,8 @@ nav a {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 10%;
-    background: url('../img/ep_naturalblack.png');
-    color: #ccc;
+    background: url('../img/ep_naturalwhite.png');
+    color: #000;
 }
 
 .about-container {
@@ -51,7 +51,6 @@ nav a {
 }
 
 .about-links {
-    background-color: #ccc;
     max-width: 30%;
     margin-top: 30px;
     margin-left: 35%;
@@ -101,7 +100,7 @@ nav a {
 }
 .image-container {
     display: inline-flex;
-    background-image: url("../img/ep_naturalwhite.png");
+    background-image: url("../img/ep_naturalblack.png");
 }
 .project-container {
     text-align: center;
@@ -116,8 +115,8 @@ nav a {
     margin-right: 40px;
     margin-left: 40px;
     border-radius: 5%;
-    border-color:#000;
-    background-color: #ccc;
+    border-color:#cba;
+    background-image: url("../img/ep_naturalwhite.png");
 }
 
 .project-info {
@@ -145,10 +144,15 @@ nav a {
     padding-bottom: 15px;
 }
 
+.footer-icons {
+    text-align: center;
+
+}
+
 .breadCrumb {
     float: right;
 }
 
 i {
-    font-size: 40px;
+    font-size: 50px;
 }

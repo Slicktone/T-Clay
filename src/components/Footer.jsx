@@ -9,9 +9,11 @@ render() {
             <div className="footer-container">
                 <footer>
                     <a href="index.html" id="logo"> Tony Clayton </a>
-                        <i className="devicon-github-plain colored"></i>
-                        <i className="devicon-twitter-plain colored"></i>
-                        <i className="devicon-facebook-plain colored"></i>
+                        <span className="footer-icons">
+                            <i className="devicon-github-plain colored"></i>
+                            <i className="devicon-twitter-plain colored"></i>
+                            <i className="devicon-facebook-plain colored"></i>
+                        </span>
                     <a href='#' className='breadCrumb'> Back To Top </a>
                 </footer>
             </div>
