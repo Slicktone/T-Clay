@@ -52,8 +52,6 @@ class Projects extends React.Component {
         </div>
        );
    }
-        // map out projects to show when projects link is clicked.
-        // maybe an onclick or onMount
 }
 
 export default Projects;
