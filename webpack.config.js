@@ -4,8 +4,6 @@ var path = require('path');
 module.exports = {
     entry: "./src/app.jsx",
     output: {
-        path: _dirname,
-        publicPath: '/',
         filename: "public/bundle.js"
     },
 
