@@ -8,6 +8,12 @@ class Projects extends React.Component {
 
        return (
            <div className='project-container'>
+           <div className='project-intro'>
+                <h1> Portfolio </h1>
+                <p> Below are just a few of my projects, utilizing various technologies, frameworks, and designs. <br />
+                    The Projects listed here show my growth and diversity as a developer.
+                </p>
+            </div>
                <div className='image-container'>
 
                    <div className='logo-container'>
@@ -48,12 +54,26 @@ class Projects extends React.Component {
                             </div>
                     </div>
 
-                </div>      
+                </div>  
+
+                <h5> To see more of my Projects check out the links below! </h5>
+
+                <div className='projects-more'>
+                    <span className='project-linkedin'>
+                       <a className='projects-more-item' href='#'> <i className="fa fa-linkedin fa-4x" aria-hidden="false"></i></a>
+                    </span>
+
+                    <span className='project-github'>
+                        <i className="fa fa-github-alt fa-4x" aria-hidden="false"></i>
+                    </span>
+
+                    <span className='project-codepen'>
+                        <i className="fa fa-codepen fa-4x" aria-hidden="false"></i>
+                    </span>    
+                </div>
         </div>
        );
    }
-        // map out projects to show when projects link is clicked.
-        // maybe an onclick or onMount
 }
 
 export default Projects;

@@ -9,14 +9,13 @@ class Navbar extends React.Component {
                 <a href="index.html" id="logo"> Tony Clayton </a>
                 
                         <div className="navbar">
+
                             
-                                <a href="index.html"> Home </a>
+                                <a href="#about"> About </a>
                             
-                                <a href="#"> About </a>
+                                 <a href="#portfolio"> Portfolio </a>
                             
-                                 <a href="#"> Portfolio </a>
-                            
-                                <a href="#"> Contact </a>
+                                <a href="#contact"> Contact </a>
                         </div>              
                 </nav>
             </div>

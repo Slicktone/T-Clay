@@ -2,10 +2,25 @@
     box-sizing: border-box;
 }
 
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
 body {
     background: url('../img/ep_naturalblack.png');
     font-family: 'Dosis', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 34px;
     width: 100%;
     /*max-width: 960px;*/
@@ -13,7 +28,7 @@ body {
     clear: both;
 }
 nav {
-    background-color: #fff;
+    background-image: url('../img/ignasi_pattern_s.png');
     list-style: none;
     text-decoration: none;
     padding-right: 5%;
@@ -39,7 +54,7 @@ nav a {
     text-align: center;
     background-color: #fff;
     padding: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     background: url('../img/ep_naturalwhite.png');
     color: #000;
 }
@@ -53,7 +68,7 @@ nav a {
 .about-links {
     max-width: 30%;
     margin-top: 30px;
-    margin-left: 35%;
+    margin-left: 33%;
 }
 .about a {
     display: inherit;
@@ -106,6 +121,22 @@ nav a {
     text-align: center;
     margin-bottom: 10%;
 }
+
+.project-container h5 {
+    color: #ccc;
+    font-size: 25px;
+    margin-top: 10%;
+}
+.project-intro {
+    margin-bottom: 50px;
+}
+.project-intro h1 {
+    color: #ccc;
+}
+.project-intro p {
+    color: #ccc;
+}
+
 .logo-container {
     border-width: 13px;
     border-style: solid;
@@ -132,8 +163,22 @@ nav a {
     margin-right: -40px;
 }
 
+.projects-more {
+    background-image: url("../img/ep_naturalwhite.png");
+    max-width: 30%;
+    margin-top: 30px;
+    margin-left: 35%;
+    border-style: solid;
+    border-color: #cba;
+    border-width: 10px;
+}
+
+.project-github {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .footer-container {
-    background-color: #fff;
+    background-image: url('../img/ignasi_pattern_s.png');
 }
 .footer {
     display: inline-flex;
