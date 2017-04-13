@@ -18,7 +18,7 @@ class About extends React.Component {
                     </span>
 
                     <span className="about-resume">
-                        <a href="#">| Resume |</a>
+                        <a href="https://drive.google.com/file/d/0B-UkWJj_GugGT185NjQ5WVlfaFU/view?usp=sharing">| Resume |</a>
                     </span>
 
                     <span className="about-twitter">
