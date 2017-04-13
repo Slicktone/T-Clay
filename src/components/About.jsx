@@ -2,14 +2,13 @@ import React from 'react';
 
 class About extends React.Component {
     render() {
-        return (
+        return ( 
             <div className="about">
+            <a id='about' name='about'></a>
                 <h1> About Me! </h1>
                 <div className="about-container">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a turpis quis tortor cursus sagittis. Maecenas accumsan porta viverra. Morbi eget risus in odio imperdiet faucibus. 
-                        Mauris vitae felis erat. Sed vestibulum augue non ipsum maximus gravida. Fusce efficitur, felis eu facilisis feugiat, orci arcu blandit sapien, a iaculis nunc magna non urna. 
-                        Sed a accumsan quam. Donec dignissim, lectus in vehicula fringilla, turpis metus mollis justo, ut volutpat mauris lacus ut velit. Ut ornare lacinia eros, sed vehicula risus luctus ut. 
-                        Cras ante arcu, feugiat a justo non, imperdiet congue nisi. Aliquam gravida est a leo pellentesque placerat.
+                    <p> A self-motivated individual who enjoys learning about the next level of technology from fundamentals to advanced theories. Efficient and effective in teams and able to maintain a task focus and balance interaction between peers.  
+                        Confident in front-end development but inspired by the many challenges of back-end development.
                     </p>
                 </div>
 
