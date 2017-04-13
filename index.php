@@ -1,1 +1,1 @@
-<?php include_once("./src/app.jsx"); ?>
+<?php include_once("./public/index.html"); ?>

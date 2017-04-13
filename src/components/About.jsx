@@ -14,15 +14,15 @@ class About extends React.Component {
 
                 <div className="about-links">
                     <span className="about-linkedin">
-                        <a href="www.linkedin.com/in/tclaytony"> LinkedIn </a> 
+                        <a href="www.linkedin.com/in/tclaytony">| LinkedIn |</a> 
                     </span>
 
                     <span className="about-resume">
-                        <a href="#"> Resume </a>
+                        <a href="#">| Resume |</a>
                     </span>
 
                     <span className="about-twitter">
-                        <a href="www.twitter.com"> Twitter </a>
+                        <a href="www.twitter.com/Slicktone310">| Twitter |</a>
                     </span>
                 </div>
                 

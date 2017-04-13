@@ -8,8 +8,10 @@ class Projects extends React.Component {
 
        return (
            <div className='project-container'>
+             <a id='#portfolio' name='portfolio'></a>
            <div className='project-intro'>
                 <h1> Portfolio </h1>
+
                 <p> Below are just a few of my projects, utilizing various technologies, frameworks, and designs. <br />
                     The Projects listed here show my growth and diversity as a developer.
                 </p>
@@ -36,19 +38,19 @@ class Projects extends React.Component {
                     </div>
 
                     <div className='logo-container'>
-                       <img className='north-east-trees' src='../public/assets/img/NET-logo-250.png' href='www.bringingnatureback.org'></img>
+                       <img className='north-east-trees' src='../public/assets/img/NET-logo-250.png' href='http://www.northeasttrees.org/'></img>
                           
                           <div className='project-info'>
-                                <a href='www.bringingnatureback.org' target='_blank'>
+                                <a href='http://www.northeasttrees.org/' target='_blank'>
                                     <h2> North East Trees </h2>
                                 </a>
                             </div>
                     </div>
 
                     <div className='logo-container'>
-                       <img className='jslv' src='../public/assets/img/jslv-hooks-180.png' href='www.jslv.com'></img>
+                       <img className='jslv' src='../public/assets/img/jslv-hooks-180.png' href='http://www.jslv.com/about'></img>
                          <div className='project-info'>
-                                <a href='www.jslv.com' target='_blank'>
+                                <a href='http://www.jslv.com/about' target='_blank'>
                                     <h2> JSLV </h2>
                                 </a>
                             </div>
@@ -59,16 +61,18 @@ class Projects extends React.Component {
                 <h5> To see more of my Projects check out the links below! </h5>
 
                 <div className='projects-more'>
-                    <span className='project-linkedin'>
-                       <a className='projects-more-item' href='#'> <i className="fa fa-linkedin fa-4x" aria-hidden="false"></i></a>
-                    </span>
 
                     <span className='project-github'>
-                        <i className="fa fa-github-alt fa-4x" aria-hidden="false"></i>
+                        <a className='projects-more-item' href='https://github.com/Slicktone'><i className="fa fa-github-alt fa-4x" aria-hidden="false"></i></a>
                     </span>
 
+                    <span className='project-linkedin'>
+                       <a className='projects-more-item' href='https://www.linkedin.com/in/tclaytony/'> <i className="fa fa-linkedin fa-4x" aria-hidden="false"></i></a>
+                    </span>
+
+
                     <span className='project-codepen'>
-                        <i className="fa fa-codepen fa-4x" aria-hidden="false"></i>
+                        <a className='projects-more-item' href='http://codepen.io/Slicktone/'><i className="fa fa-codepen fa-4x" aria-hidden="false"></i></a>
                     </span>    
                 </div>
         </div>

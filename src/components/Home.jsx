@@ -34,7 +34,7 @@ class Home extends React.Component {
             </div>
 
             <div className='img-container'>
-                <img className='profile-shot' src='../public/assets/img/profile_shot.jpg' alt='' />
+                <img className='profile-shot' src='../public/assets/img/toneh.jpg' alt='' />
             </div>
 
             <div className='skills-third-row'>

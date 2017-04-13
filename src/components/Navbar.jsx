@@ -6,10 +6,9 @@ class Navbar extends React.Component {
         return(
             <div className="container">
             <nav>
-                <a href="index.html" id="logo"> Tony Clayton </a>
+                <a id="top"> Tony Clayton </a>
                 
                         <div className="navbar">
-
                             
                                 <a href="#about"> About </a>
                             
